@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Marketing",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum libero natus corrupti. Ipsum rem cum pariatur dolores sapiente id corporis!",
+        "img": "https://i.ibb.co/Bjfn7k1/marketing.png"
+    },
+    {
+        "name": "SEO Optimization",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum libero natus corrupti. Ipsum rem cum pariatur dolores sapiente id corporis!",
+        "img": "https://i.ibb.co/WtLz28S/SEO.png"
+    },
+    {
+        "name": "UX & Product Design",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum libero natus corrupti. Ipsum rem cum pariatur dolores sapiente id corporis!",
+        "img": "https://i.ibb.co/8BLYXCJ/Branding.png"
+    },
+    {
+        "name": "App Development",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum libero natus corrupti. Ipsum rem cum pariatur dolores sapiente id corporis!",
+        "img": "https://i.ibb.co/nsZT9rz/Development.png"
+    },
+    {
+        "name": "Web Design",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum libero natus corrupti. Ipsum rem cum pariatur dolores sapiente id corporis!",
+        "img": "https://i.ibb.co/g9pGNKQ/web-Design.png"
+    },
+    {
+        "name": "Business Consulting",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum libero natus corrupti. Ipsum rem cum pariatur dolores sapiente id corporis!",
+        "img": "https://i.ibb.co/fvDsKDk/ECommerce.png"
+    }
+]

@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from '../../Shared/Navigation/Navigation';
+import FeaturedServices from '../FeaturedServices/FeaturedServices';
 import TopBanner from '../TopBanner/TopBanner';
 
 const Home = () => {
@@ -7,11 +8,7 @@ const Home = () => {
         <div>
             <Navigation></Navigation>
             <TopBanner></TopBanner>
-            <h1>sdfsdfsdf</h1>
-            <h1>sdfsdfsdf</h1>
-            <h1>sdfsdfsdf</h1>
-            <h1>sdfsdfsdf</h1>
-            <h1>sdfsdfsdf</h1>
+            <FeaturedServices></FeaturedServices>
         </div>
     );
 };

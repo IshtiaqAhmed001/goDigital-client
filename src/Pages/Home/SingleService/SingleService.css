@@ -1,0 +1,10 @@
+.card-description,.card-item{
+    transition: 0.5s;
+}
+.card-item:hover{
+background-color: #232323;
+color: aliceblue;
+}
+.card-item:hover .card-description{
+    color: aliceblue;
+}
