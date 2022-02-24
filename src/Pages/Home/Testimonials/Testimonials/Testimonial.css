@@ -1,0 +1,14 @@
+.testimonial-page{
+        background: url('../../../../Media/06.jpg');
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 20px 0;
+}
+.carousel-container{
+    width: 50%;
+    margin:auto;
+    border-radius: 5%;
+    padding: 30px 20px;
+    background-color: #211d1cb1;
+}

@@ -9,8 +9,9 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
+import { Link } from 'react-router-dom';
 
-const pages = ['Home', 'About Us', 'Services', 'Blog'];
+const pages = ['home', 'about', 'Services', 'Blog'];
 const Navigation = () => {
 
     const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -27,7 +28,7 @@ const Navigation = () => {
     return (
         <AppBar style={{ background: 'black' }} position="sticky">
             <Container maxWidth="xl">
-                <Toolbar disableGutters>
+                <Toolbar disableGutters >
                     <Typography
                         variant="h6"
                         noWrap
@@ -37,7 +38,7 @@ const Navigation = () => {
                         LOGO
                     </Typography>
 
-                    <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+                    <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }} >
                         <IconButton
                             size="large"
                             aria-label="account of current user"
@@ -83,18 +84,20 @@ const Navigation = () => {
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         {pages.map((page) => (
-                            <Button
-                                key={page}
-                                onClick={handleCloseNavMenu}
-                                sx={{ my: 2, color: 'white', display: 'block' }}
-                            >
-                                {page}
-                            </Button>
+                            <Link to={`/${page}`} style={{ textDecoration: 'none' }}>
+                                <Button
+                                    key={page}
+                                    onClick={handleCloseNavMenu}
+                                    sx={{ my: 2, color: 'white', display: 'block' }}
+                                >
+                                    {page}
+                                </Button>
+                            </Link>
                         ))}
                     </Box>
                 </Toolbar>
             </Container>
-        </AppBar>
+        </AppBar >
     );
 };
 

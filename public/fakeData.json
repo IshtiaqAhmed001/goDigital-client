@@ -1,6 +1,6 @@
 [
     {
-        "name": "Marketing",
+        "name": "Business Consulting",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum libero natus corrupti. Ipsum rem cum pariatur dolores sapiente id corporis!",
         "img": "https://i.ibb.co/Bjfn7k1/marketing.png"
     },
@@ -17,15 +17,15 @@
     {
         "name": "App Development",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum libero natus corrupti. Ipsum rem cum pariatur dolores sapiente id corporis!",
-        "img": "https://i.ibb.co/nsZT9rz/Development.png"
+        "img": "https://i.ibb.co/g9pGNKQ/web-Design.png"
     },
     {
         "name": "Web Design",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum libero natus corrupti. Ipsum rem cum pariatur dolores sapiente id corporis!",
-        "img": "https://i.ibb.co/g9pGNKQ/web-Design.png"
+        "img": "https://i.ibb.co/nsZT9rz/Development.png"
     },
     {
-        "name": "Business Consulting",
+        "name": "Marketing",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum libero natus corrupti. Ipsum rem cum pariatur dolores sapiente id corporis!",
         "img": "https://i.ibb.co/fvDsKDk/ECommerce.png"
     }

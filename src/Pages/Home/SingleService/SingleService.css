@@ -1,5 +1,5 @@
 .card-description,.card-item{
-    transition: 0.5s;
+    transition: 0.8s;
 }
 .card-item:hover{
 background-color: #232323;
