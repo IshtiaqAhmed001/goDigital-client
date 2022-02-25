@@ -1,15 +1,13 @@
 import React from 'react';
 import Navigation from '../../Shared/Navigation/Navigation';
 
-const About = () => {
+const AllServices = () => {
     return (
         <div>
             <Navigation></Navigation>
-            <br />
-            <br />
-            <h1>THis is about</h1>
+            <h1>All services</h1>
         </div>
     );
 };
 
-export default About;
+export default AllServices;
