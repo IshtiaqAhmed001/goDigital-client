@@ -8,6 +8,7 @@ import Register from './Pages/Login/Register/Register';
 import AllServices from './Pages/AllServices/AllServices/AllServices';
 import AuthProvider from './contexts/AuthProvider/AuthProvider';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
+import Packages from './Pages/Packages/Packages/Packages.js/Packages';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/home" element={<Home />} />
             <Route path="/about" element={<PrivateRoute><About /></PrivateRoute>} />
             <Route path="/services" element={<PrivateRoute><AllServices /></PrivateRoute>} />
+            <Route path="/packages" element={<Packages></Packages>} />
             <Route path='/login' element={<Login />} />
             <Route path='/register' element={<Register />} />
           </Routes>

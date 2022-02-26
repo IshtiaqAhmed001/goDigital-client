@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Personal",
+        "keywords": "5-7 Keywords",
+        "category": "Ideal for: Small Business Website SEO",
+        "duration": "Duration: At least 3 months",
+        "description": "2-3 Articles Per Month | In- Depth Site Analysis | Content Duplicate check | Initial Backlink check | Keyword Research | Fully On - Page Optimization | Content Optimization | Off - page Optimization |Support | Quick Delivery",
+        "img": "",
+        "price": "BDT 13000"
+    },
+    {
+        "name": "Startup",
+        "keywords": "12-15 Keywords",
+        "category": "Ideal for: Medium Business Website SEO",
+        "duration": "Duration: At least 3 months",
+        "description": "12-15 Keywords rank | 6-8 Articles Per Month | In- Depth Site Analysis | Content Duplicate check | Initial Backlink check | Keyword Research | Fully On - Page Optimization | Content Optimization | Off - page Optimization | Social Media Optimization",
+        "img": "",
+        "price": "BDT 22000"
+    },
+    {
+        "name": "Business",
+        "keywords": "25-30 Keywords",
+        "category": "Ideal for: Large Business Website SEO",
+        "duration": "Duration: At least 3 months",
+        "description": "12-15 Keywords rank | 8-10 Articles Per Month | In- Depth Site Analysis | Content Duplicate check | Initial Backlink check | Keyword Research | Fully On - Page Optimization | Content Optimization | Off - page Optimization |Support | Quick Delivery",
+        "img": "",
+        "price": "BDT 30800"
+    },
+    {
+        "name": "Corporate",
+        "keywords": "60-80 Keywords",
+        "category": "Ideal for: Very Large Business Website SEO",
+        "duration": "Duration: At least 5 months",
+        "description": "60-80 Keywords rank | 12-15 Articles Per Month | In- Depth Site Analysis | Content Duplicate check | Initial Backlink check | Keyword Research | Fully On - Page Optimization | Content Optimization | Off - page Optimization |Support | Quick Delivery",
+        "img": "",
+        "price": "BDT 39600"
+    },
+    {
+        "name": "Web Design",
+        "keywords": "",
+        "category": "Ideal for: Startup | Small | Large Business",
+        "duration": "Duration: Depends on requirements",
+        "description": "Domain | Hosting | Design Responsive Website | Highly SEO & Security optimized | Well tested | Branded Color Scheme | Visually attractive graphical layout | Blog, Portfolio, Business, E-commerce website | Support 12 months",
+        "img": "",
+        "price": "Starts from BDT 10000"
+    },
+    {
+        "name": "Graphics Design",
+        "keywords": "",
+        "category": "Ideal for: Startup | Small | Large Business",
+        "duration": "Duration: Depends on requirements",
+        "description": "Logo Design | Banner Design | Business Card Design | Flyer Design | Brochure Design | Label Design | Social Media Ad Design | Facebook Cover Photo Design | LinkedIn Cover Photo Design | Products Background Removing | Motion Graphics Design",
+        "img": "",
+        "price": "Starts from BDT 500"
+    }
+]

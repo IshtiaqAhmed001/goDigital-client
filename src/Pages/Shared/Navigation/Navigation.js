@@ -12,7 +12,7 @@ import { NavLink } from 'react-router-dom';
 export default function ButtonAppBar() {
     const { user, logOut } = useAuth();
     return (
-        <Box sx={{ flexGrow: 1 }}>
+        <Box sx={{ flexGrow: 1, my: 5 }}>
             <AppBar style={{ background: 'black' }} position="fixed">
                 <Toolbar>
                     <IconButton
@@ -32,6 +32,8 @@ export default function ButtonAppBar() {
                     <NavLink style={{ textDecoration: 'none', color: 'white' }} to='/about'><Button color="inherit">About</Button></NavLink>
 
                     <NavLink style={{ textDecoration: 'none', color: 'white' }} to='/services'><Button color="inherit">Services</Button></NavLink>
+
+                    <NavLink style={{ textDecoration: 'none', color: 'white' }} to='/packages'><Button color="inherit">Packages</Button></NavLink>
 
                     {
                         user?.email ? <Button onClick={logOut} color="inherit">Logout</Button>
