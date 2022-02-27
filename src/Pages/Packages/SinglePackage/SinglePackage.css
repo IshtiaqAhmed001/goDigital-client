@@ -1,14 +1,14 @@
-.card-description,.card-item{
+.card-body,.single-card{
     transition: 0.8s;
 }
-.image-container{
-    width: '100px';
-    height: '50px';
-}
-.card-item:hover{
+
+.single-card:hover{
 background-color: #5ed3d188;
 color: black;
 }
-.card-item:hover .card-description{
+.single-card:hover .card-body{
+    color: black;
+}
+.single-card:hover .price{
     color: black;
 }

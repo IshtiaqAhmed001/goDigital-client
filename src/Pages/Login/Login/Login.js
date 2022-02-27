@@ -51,6 +51,7 @@ const Login = () => {
                                 <TextField sx={{ my: 2 }} fullWidth
                                     {...register("email", { required: true })} id="standard-basic"
                                     label="Your Email"
+                                    type="email"
                                     variant="standard" />
                                 {errors.email && <span style={{ color: 'red' }}>This field is required</span>}
                                 <br />

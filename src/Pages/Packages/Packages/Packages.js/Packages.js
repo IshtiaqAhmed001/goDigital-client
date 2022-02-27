@@ -1,11 +1,11 @@
 import React from 'react';
-import AllPackages from '../../AllPackages/AllPackages';
+import AvailablePackages from '../../AvailablePackages/AvailablePackages';
 import Navigation from '../../../Shared/Navigation/Navigation';
 const Packages = () => {
     return (
         <div>
             <Navigation></Navigation>
-            <AllPackages></AllPackages>
+            <AvailablePackages></AvailablePackages>
         </div>
     );
 };

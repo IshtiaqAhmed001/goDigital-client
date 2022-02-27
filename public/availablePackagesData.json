@@ -1,6 +1,7 @@
 [
     {
-        "name": "Personal",
+        "packageName": "Personal Pack",
+        "id": "p1",
         "category": "Ideal for: Small Business Website SEO",
         "duration": "Duration: At least 3 months",
         "description": [
@@ -20,7 +21,8 @@
         "price": "BDT 13000"
     },
     {
-        "name": "Startup",
+        "packageName": "Startup Pack",
+        "id": "s1",
         "category": "Ideal for: Medium Business Website SEO",
         "duration": "Duration: At least 3 months",
         "description": [
@@ -40,7 +42,8 @@
         "price": "BDT 22000"
     },
     {
-        "name": "Business",
+        "packageName": "Business Pack",
+        "id": "b1",
         "category": "Ideal for: Large Business Website SEO",
         "duration": "Duration: At least 3 months",
         "description": [
@@ -60,7 +63,8 @@
         "price": "BDT 30800"
     },
     {
-        "name": "Corporate",
+        "packageName": "Corporate Pack",
+        "id": "c1",
         "category": "Ideal for: Very Large Business Website SEO",
         "duration": "Duration: At least 5 months",
         "description": [
@@ -80,7 +84,8 @@
         "price": "BDT 39600"
     },
     {
-        "name": "Web Design",
+        "packageName": "Web Design",
+        "id": "w1",
         "category": "Ideal for: Startup | Small | Large Business",
         "duration": "Duration: Depends on requirements",
         "description": [
@@ -100,7 +105,8 @@
         "price": "Starts from BDT 10000"
     },
     {
-        "name": "Graphics Design",
+        "packageName": "Graphics Design",
+        "id": "g1",
         "category": "Ideal for: Startup | Small | Large Business",
         "duration": "Duration: Depends on requirements",
         "description": [
