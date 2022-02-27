@@ -10,6 +10,7 @@ import AuthProvider from './contexts/AuthProvider/AuthProvider';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import Packages from './Pages/Packages/Packages/Packages.js/Packages';
 import PlaceOrder from './Pages/PlaceOrder/PlaceOrder/PlaceOrder';
+import Dashboard from './Pages/Dashboard/Dashboard/Dashboard';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<AllServices />} />
             <Route path="/packages" element={<PrivateRoute><Packages /></PrivateRoute>} />
+            <Route path="/dashboard" element={<PrivateRoute><Dashboard /></PrivateRoute>} />
             <Route path='/login' element={<Login />} />
             <Route path='/register' element={<Register />} />
           </Routes>
