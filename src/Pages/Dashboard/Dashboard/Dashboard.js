@@ -6,18 +6,20 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Divider from '@mui/material/Divider';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import MailIcon from '@mui/icons-material/Mail';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Orders from '../Orders/Orders';
 import { NavLink } from 'react-router-dom';
-import { Button } from '@mui/material';
+import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
+import HomeIcon from '@mui/icons-material/Home';
+import AdminPanelSettingsIcon from '@mui/icons-material/AdminPanelSettings';
+import ReviewsIcon from '@mui/icons-material/Reviews';
+
 
 const drawerWidth = 200;
 
@@ -33,18 +35,36 @@ function Dashboard(props) {
         <div>
             <Toolbar />
             <Divider />
-            <NavLink style={{ textDecoration: 'none' }} to='/packages'><Button variant='text'>Order Package</Button></NavLink>
+
             <List>
-                <ListItem >
-                </ListItem>
-                {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-                    <ListItem button key={text}>
+                <NavLink style={{ textDecoration: 'none', color: 'black' }} to='/home'>
+                    <ListItem button>
                         <ListItemIcon>
-                            {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
+                            <HomeIcon />
                         </ListItemIcon>
-                        <ListItemText primary={text} />
+                        <ListItemText primary={'Home'} />
                     </ListItem>
-                ))}
+                </NavLink>
+
+                <ListItem button>
+                    <ListItemIcon>
+                        <ShoppingBagIcon />
+                    </ListItemIcon>
+                    <ListItemText primary={<NavLink style={{ textDecoration: 'none', color: 'black' }} to='/packages'>Order Package</NavLink>} />
+                </ListItem>
+                <ListItem button>
+                    <ListItemIcon>
+                        <AdminPanelSettingsIcon />
+                    </ListItemIcon>
+                    <ListItemText primary={<NavLink style={{ textDecoration: 'none', color: 'black' }} to='/'>Make Admin</NavLink>} />
+                </ListItem>
+                <ListItem button>
+                    <ListItemIcon>
+                        <ReviewsIcon />
+                    </ListItemIcon>
+                    <ListItemText primary={<NavLink style={{ textDecoration: 'none', color: 'black' }} to='/'>Add Review</NavLink>} />
+                </ListItem>
+
             </List>
         </div>
     );

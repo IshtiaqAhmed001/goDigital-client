@@ -47,48 +47,47 @@ const Register = () => {
                                 Register
                             </Typography>
 
-                            {
-                                !isLoading && <form onSubmit={handleSubmit(onSubmit)}>
+                            <form onSubmit={handleSubmit(onSubmit)}>
 
-                                    <TextField sx={{ my: 2 }} fullWidth  {...register("name", { required: true })} id="standard-basic" label="Your Name" variant="standard" />
-                                    {errors.name && <span style={{ color: 'red' }}>This field is required</span>}
-                                    <br />
-                                    <TextField sx={{ my: 2 }} fullWidth
-                                        {...register("email", { required: true })}
-                                        id="standard-basic"
-                                        label="Your Email"
-                                        type="email"
-                                        variant="standard" />
-                                    {errors.email && <span style={{ color: 'red' }}>This field is required</span>}
-                                    <br />
+                                <TextField sx={{ my: 2 }} fullWidth  {...register("name", { required: true })} id="standard-basic" label="Your Name" variant="standard" />
+                                {errors.name && <span style={{ color: 'red' }}>This field is required</span>}
+                                <br />
+                                <TextField sx={{ my: 2 }} fullWidth
+                                    {...register("email", { required: true })}
+                                    id="standard-basic"
+                                    label="Your Email"
+                                    type="email"
+                                    variant="standard" />
+                                {errors.email && <span style={{ color: 'red' }}>This field is required</span>}
+                                <br />
 
-                                    <TextField sx={{ my: 2 }} fullWidth
-                                        {...register("password", { required: true })}
-                                        id="standard-basic"
-                                        label="Your Password"
-                                        type="password"
-                                        variant="standard" />
-                                    {errors.password && <span style={{ color: 'red' }}>This field is required</span>}
-                                    <br />
+                                <TextField sx={{ my: 2 }} fullWidth
+                                    {...register("password", { required: true })}
+                                    id="standard-basic"
+                                    label="Your Password"
+                                    type="password"
+                                    variant="standard" />
+                                {errors.password && <span style={{ color: 'red' }}>This field is required</span>}
+                                <br />
 
-                                    <TextField
-                                        sx={{ my: 2 }} fullWidth
-                                        {...register("password2", { required: true })}
-                                        id="standard-basic"
-                                        label="Re-type Your Password"
-                                        type="password"
-                                        variant="standard" />
-                                    {errors.password2 && <span style={{ color: 'red' }}>This field is required</span>}
-                                    <br />
+                                <TextField
+                                    sx={{ my: 2 }} fullWidth
+                                    {...register("password2", { required: true })}
+                                    id="standard-basic"
+                                    label="Re-type Your Password"
+                                    type="password"
+                                    variant="standard" />
+                                {errors.password2 && <span style={{ color: 'red' }}>This field is required</span>}
+                                <br />
 
-                                    <Button sx={{ width: '100%', my: 5, backgroundColor: '#212121' }} variant="contained" type='submit'>
-                                        Register
-                                    </Button>
+                                <Button sx={{ width: '100%', my: 5, backgroundColor: '#212121' }} variant="contained" type='submit'>
+                                    Register
+                                </Button>
 
-                                    <Link to="/login">
-                                        <Button color='secondary' variant="text">Already a User? Please Sign In!</Button>
-                                    </Link>
-                                </form>}
+                                <Link to="/login">
+                                    <Button color='secondary' variant="text">Already a User? Please Sign In!</Button>
+                                </Link>
+                            </form>
                             {isLoading && <CircularProgress color="inherit" />}
                             {user?.email && <Alert severity="success">User Created Successfully!</Alert>
                             }
