@@ -1,9 +1,11 @@
 import { Alert, Button, TextField } from '@mui/material';
 import React, { useState } from 'react';
+import useAuth from '../../../hooks/useAuth';
 
 const MakeAdmin = () => {
     const [email, setEmail] = useState('');
     const [successMsg, setSuccessMsg] = useState(false);
+    const { token } = useAuth();
 
     const handleOnBlur = e => {
         setEmail(e.target.value);
@@ -11,9 +13,10 @@ const MakeAdmin = () => {
 
     const handleAdminSubmit = e => {
         const user = { email };
-        fetch('http://localhost:5000/users/admin', {
+        fetch('https://floating-lowlands-12971.herokuapp.com/users/admin', {
             method: 'PUT',
             headers: {
+                'authorization': `Bearer ${token}`,
                 'content-type': 'application/json'
             },
             body: JSON.stringify(user)
@@ -21,7 +24,6 @@ const MakeAdmin = () => {
             .then(res => res.json())
             .then(data => {
                 if (data.modifiedCount) {
-                    console.log(data);
                     setSuccessMsg(true);
                 }
             })

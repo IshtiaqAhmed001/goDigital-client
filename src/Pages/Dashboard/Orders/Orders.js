@@ -10,15 +10,19 @@ import Paper from '@mui/material/Paper';
 import { Grid } from '@mui/material';
 
 const Orders = () => {
-    const { user } = useAuth();
+    const { user, token } = useAuth();
     const [orders, setOrders] = useState([]);
 
     useEffect(() => {
-        const url = `http://localhost:5000/orders?email=${user.email}`;
-        fetch(url)
+        const url = `https://floating-lowlands-12971.herokuapp.com/orders?email=${user.email}`;
+        fetch(url, {
+            headers: {
+                'authorization': `Bearer ${token}`,
+            }
+        })
             .then(res => res.json())
             .then(data => setOrders(data));
-    }, [])
+    }, [user.email, token])
 
     return (
         <div>
