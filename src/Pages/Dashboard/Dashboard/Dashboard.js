@@ -13,12 +13,12 @@ import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import Orders from '../Orders/Orders';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Outlet } from 'react-router-dom';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import HomeIcon from '@mui/icons-material/Home';
 import AdminPanelSettingsIcon from '@mui/icons-material/AdminPanelSettings';
 import ReviewsIcon from '@mui/icons-material/Reviews';
+import useAuth from '../../../hooks/useAuth';
 
 
 const drawerWidth = 200;
@@ -26,6 +26,7 @@ const drawerWidth = 200;
 function Dashboard(props) {
     const { window } = props;
     const [mobileOpen, setMobileOpen] = React.useState(false);
+    const { admin } = useAuth();
 
     const handleDrawerToggle = () => {
         setMobileOpen(!mobileOpen);
@@ -45,26 +46,53 @@ function Dashboard(props) {
                         <ListItemText primary={'Home'} />
                     </ListItem>
                 </NavLink>
+                <NavLink style={{ textDecoration: 'none', color: 'black' }} to='/packages'>
+                    <ListItem button>
+                        <ListItemIcon>
+                            <HomeIcon />
+                        </ListItemIcon>
+                        <ListItemText primary={'Order Package'} />
+                    </ListItem>
+                </NavLink>
 
-                <ListItem button>
-                    <ListItemIcon>
-                        <ShoppingBagIcon />
-                    </ListItemIcon>
-                    <ListItemText primary={<NavLink style={{ textDecoration: 'none', color: 'black' }} to='/packages'>Order Package</NavLink>} />
-                </ListItem>
-                <ListItem button>
-                    <ListItemIcon>
-                        <AdminPanelSettingsIcon />
-                    </ListItemIcon>
-                    <ListItemText primary={<NavLink style={{ textDecoration: 'none', color: 'black' }} to='/'>Make Admin</NavLink>} />
-                </ListItem>
-                <ListItem button>
-                    <ListItemIcon>
-                        <ReviewsIcon />
-                    </ListItemIcon>
-                    <ListItemText primary={<NavLink style={{ textDecoration: 'none', color: 'black' }} to='/'>Add Review</NavLink>} />
-                </ListItem>
+                <Divider />
 
+                <NavLink style={{ textDecoration: 'none', color: 'black' }} to='/dashboard'>
+                    <ListItem button>
+                        <ListItemIcon>
+                            <ShoppingBagIcon />
+                        </ListItemIcon>
+                        <ListItemText primary={'Dashboard'} />
+                    </ListItem>
+                </NavLink>
+                {
+                    admin && <Box>
+                        <NavLink style={{ textDecoration: 'none', color: 'black' }} to='/dashboard/makeAdmin'>
+                            <ListItem button>
+                                <ListItemIcon>
+                                    <AdminPanelSettingsIcon />
+                                </ListItemIcon>
+                                <ListItemText primary={'Make Admin'} />
+                            </ListItem>
+                        </NavLink>
+                        <NavLink style={{ textDecoration: 'none', color: 'black' }} to='/dashboard/addService'>
+                            <ListItem button>
+                                <ListItemIcon>
+                                    <AdminPanelSettingsIcon />
+                                </ListItemIcon>
+                                <ListItemText primary={'Add New Service'} />
+                            </ListItem>
+                        </NavLink>
+                    </Box>
+                }
+                <NavLink style={{ textDecoration: 'none', color: 'black' }} to='/dashboard/addReview'>
+                    <ListItem button>
+                        <ListItemIcon>
+                            <ReviewsIcon />
+                        </ListItemIcon>
+                        <ListItemText primary={'Add Review'} />
+                    </ListItem>
+                </NavLink>
             </List>
         </div>
     );
@@ -132,9 +160,7 @@ function Dashboard(props) {
                 sx={{ flexGrow: 1, p: 3, width: { sm: `calc(100% - ${drawerWidth}px)` } }}
             >
                 <Toolbar />
-                <Typography paragraph>
-                    <Orders></Orders>
-                </Typography>
+                <Outlet />
             </Box>
         </Box>
     );
