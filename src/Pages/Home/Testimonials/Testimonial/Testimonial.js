@@ -8,7 +8,7 @@ const Testimonial = ({ review }) => {
             <img style={{ width: '150px', height: '150px', borderRadius: '50%', padding: 2 }} src={review.img} alt="" />
             <br />
             <Rating sx={{ mt: 2 }} name="read-only" value={review.rating} readOnly />
-            <Typography variant="body1" gutterBottom sx={{ color: '#8B8B8B', marginY: 2 }}>
+            <Typography variant="body1" gutterBottom sx={{ color: '#c9c9c9', marginY: 2 }}>
                 {review.comment}
             </Typography>
             <Typography variant="h6" gutterBottom sx={{ color: '#CACACA' }}>
