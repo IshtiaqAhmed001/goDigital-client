@@ -37,7 +37,7 @@ const Footer = () => {
             <Grid container spacing={2} sx={{ py: 15 }}>
                 < Grid item xs={12} sm={12} md={12} lg={4}>
                     <img src={location} alt="" />
-                    <Typography sx={{ color: 'gray' }} variant='body2'>
+                    <Typography sx={{ color: 'lightgray' }} variant='body2'>
                         Block C, Bashundhara R/A
                         <br />
                         Dhaka, Bangladesh
@@ -45,13 +45,13 @@ const Footer = () => {
                 </Grid>
                 <Grid item xs={12} sm={12} md={12} lg={4}>
                     <img src={email} alt="" />
-                    <Typography sx={{ color: 'gray' }} variant='body2'>
+                    <Typography sx={{ color: 'lightgray' }} variant='body2'>
                         ishtiaq.wasi@gmail.com
                     </Typography>
                 </Grid>
                 <Grid item xs={12} sm={12} md={12} lg={4}>
                     <img src={phone} alt="" />
-                    <Typography sx={{ color: 'gray' }} variant='body2'>
+                    <Typography sx={{ color: 'lightgray' }} variant='body2'>
                         +8801685490555
                     </Typography>
                 </Grid>
