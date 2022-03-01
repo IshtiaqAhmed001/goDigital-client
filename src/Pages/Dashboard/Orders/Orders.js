@@ -10,7 +10,7 @@ import Paper from '@mui/material/Paper';
 import { Grid } from '@mui/material';
 
 const Orders = () => {
-    const { user, token } = useAuth();
+    const { user, token, isLoading } = useAuth();
     const [orders, setOrders] = useState([]);
 
     useEffect(() => {

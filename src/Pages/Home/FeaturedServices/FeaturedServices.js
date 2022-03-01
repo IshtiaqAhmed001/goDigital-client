@@ -15,7 +15,7 @@ const FeaturedServices = () => {
     return (
         <div>
             <Box sx={{ paddingY: 5, backgroundColor: '#EFF4F5' }}>
-                <Typography sx={{ marginBottom: 5, fontWeight: 'bold', color: '#232323' }} variant="h2" component="div" gutterBottom>
+                <Typography sx={{ marginBottom: 5, letterSpacing: 6, color: '#232323' }} variant="h2" component="div" gutterBottom>
                     Our Services
                 </Typography>
 

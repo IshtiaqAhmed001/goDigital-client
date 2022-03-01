@@ -3,13 +3,13 @@
         background-repeat:no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        padding: 20px 0;
+        padding: 10px 0;
 }
 .carousel-container{
     width: 50%;
     margin:auto;
     border-radius: 5%;
-    padding: 30px 20px;
+    padding: 20px;
     /* background-color: #211d1cb1; */
     /* background-color: #060a0cd2; */
 }

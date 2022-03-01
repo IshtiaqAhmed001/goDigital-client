@@ -21,13 +21,14 @@ import { Typography } from '@mui/material';
 
 const OurClients = () => {
     return (
-        <div>
-            <Typography sx={{ my: 5, fontWeight: 'bold', color: '#232323' }} variant="h2" component="div" gutterBottom>
+        <div >
+            <Typography sx={{ my: 5, letterSpacing: 6, color: '#232323' }} variant="h2">
                 Our Valuable Clients
             </Typography>
-            <Typography sx={{ mb: 5 }} variant='h6' color='text.secondary'>
+            <Typography sx={{ mb: 5, fontSize: '1.2rem' }} variant='subtitle' color='text.secondary'>
                 In the last few years We have provided Web desigining, TVC, OVC, SEO, and Promotional Content Desigining  Services to 150+ Clients.
             </Typography>
+            <br />
             <Carousel cols={4} rows={2} gap={3} autoplay={1500} loop={true} >
                 <Carousel.Item>
                     <img style={{ width: "300px", height: "150px", padding: '30px' }} src={bkash} alt="" />
@@ -78,7 +79,7 @@ const OurClients = () => {
                     <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={symphony} alt="" />
                 </Carousel.Item >
             </Carousel>
-
+            <br />
         </div >
     );
 };

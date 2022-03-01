@@ -20,7 +20,7 @@ const TopBanner = () => {
     return (
         <ThemeProvider theme={theme}>
             <Box className='top-banner-heading' sx={{ flexGrow: 1 }}>
-                <Typography sx={{ fontSize: { sm: '6rem', xs: '3rem' }, textAlign: 'left', lineHeight: 1.2, fontWeight: 'bold', ml: 2, color: '#232323', paddingTop: 10, display: 'flex', alignItems: 'center' }} component="div" gutterBottom>
+                <Typography sx={{ fontSize: { sm: '6rem', xs: '3rem' }, textAlign: 'left', lineHeight: 1.2, ml: 2, color: '#232323', paddingTop: 10, display: 'flex', alignItems: 'center' }}>
                     Make Your Vision
                     <br />
                     A Reality
