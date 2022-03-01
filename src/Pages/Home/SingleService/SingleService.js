@@ -24,12 +24,12 @@ const SingleService = ({ service }) => {
                     <Typography gutterBottom variant="h5" component="div">
                         {service.name}
                     </Typography>
-                    <Typography className='card-description' sx={{ textAlign: 'left' }} variant="body2" color="text.secondary">
+                    <Typography className='card-description' sx={{ textAlign: 'center' }} variant="body2" color="text.secondary">
                         {service.description}
                     </Typography>
                 </CardContent>
                 <CardActions >
-                    <Button onClick={handleBooking} sx={{ fontWeight: 'bold' }} color="inherit" size="medium">Book Service</Button>
+                    {/* <Button onClick={handleBooking} sx={{ fontWeight: 'bold' }} color="inherit" size="medium">Book Service</Button> */}
                 </CardActions>
             </Card>
         </Grid>

@@ -1,0 +1,8 @@
+.weOffer-page{
+    /* background: #0a141c; */
+    background: url('../../../Media/weOffer-bg.jpg');
+    background-size: cover;
+    color:#e0e0de;
+    background-attachment: fixed;
+    /* background-color: #1F2732; */
+}
