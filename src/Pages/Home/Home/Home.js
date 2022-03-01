@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from '../../Shared/Navigation/Navigation';
+import FeaturedPackages from '../FeaturedPackages/FeaturedPackages';
 import FeaturedServices from '../FeaturedServices/FeaturedServices';
 import OurClients from '../OurClients/OurClients';
 import Testimonials from '../Testimonials/Testimonials/Testimonials';
@@ -13,8 +14,9 @@ const Home = () => {
             <TopBanner></TopBanner>
             <FeaturedServices></FeaturedServices>
             <WhatWeOffer></WhatWeOffer>
-            <OurClients></OurClients>
+            <FeaturedPackages></FeaturedPackages>
             <Testimonials></Testimonials>
+            <OurClients></OurClients>
 
         </div>
     );

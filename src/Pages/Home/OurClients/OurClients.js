@@ -13,53 +13,73 @@ import gp from '../../../Media/brands-logo/grameenphone.png';
 import ific from '../../../Media/brands-logo/ific.png';
 import akash from '../../../Media/brands-logo/akash.png';
 import desco from '../../../Media/brands-logo/desco.png';
+import regent from '../../../Media/brands-logo/regent.png';
+import eximbank from '../../../Media/brands-logo/eximbank.png';
+import minister from '../../../Media/brands-logo/ministertv.png';
+import symphony from '../../../Media/brands-logo/symphony.png';
+import { Typography } from '@mui/material';
 
 const OurClients = () => {
     return (
         <div>
-            <h1>Our Clients</h1>
-
-            <Carousel cols={4} rows={1} gap={2} autoplay={1500} loop={true} >
-                <Carousel.Item sx={{ padding: 5 }}>
-                    <img width="200px" src={bkash} alt="" />
+            <Typography sx={{ my: 5, fontWeight: 'bold', color: '#232323' }} variant="h2" component="div" gutterBottom>
+                Our Valuable Clients
+            </Typography>
+            <Typography sx={{ mb: 5 }} variant='h6' color='text.secondary'>
+                In the last few years We have provided Web desigining, TVC, OVC, SEO, and Promotional Content Desigining  Services to 150+ Clients.
+            </Typography>
+            <Carousel cols={4} rows={2} gap={3} autoplay={1500} loop={true} >
+                <Carousel.Item>
+                    <img style={{ width: "300px", height: "150px", padding: '30px' }} src={bkash} alt="" />
                 </Carousel.Item >
-                <Carousel.Item sx={{ padding: 5 }}>
-                    <img width="200px" src={banglalink} alt="" />
+                <Carousel.Item>
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={banglalink} alt="" />
                 </Carousel.Item>
-                <Carousel.Item sx={{ padding: 5 }}>
-                    <img width="200px" src={nagad} alt="" />
+                <Carousel.Item>
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={nagad} alt="" />
                 </Carousel.Item >
-                <Carousel.Item sx={{ padding: 5 }}>
-                    <img width="200px" src={robi} alt="" />
+                <Carousel.Item>
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={robi} alt="" />
                 </Carousel.Item >
-                <Carousel.Item sx={{ padding: 5 }}>
-                    <img width="200px" src={citybank} alt="" />
+                <Carousel.Item>
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={citybank} alt="" />
                 </Carousel.Item >
-                <Carousel.Item sx={{ padding: 5 }}>
-                    <img width="200px" src={usbangla} alt="" />
+                <Carousel.Item>
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={usbangla} alt="" />
                 </Carousel.Item >
-                <Carousel.Item sx={{ padding: 5 }}>
-                    <img width="200px" src={abbank} alt="" />
+                <Carousel.Item>
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={abbank} alt="" />
                 </Carousel.Item >
-                <Carousel.Item sx={{ padding: 5 }}>
-                    <img width="200px" src={beximco} alt="" />
+                <Carousel.Item>
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={beximco} alt="" />
                 </Carousel.Item >
-                <Carousel.Item sx={{ padding: 5 }}>
-                    <img width="200px" src={gp} alt="" />
+                <Carousel.Item>
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={gp} alt="" />
                 </Carousel.Item >
-                <Carousel.Item sx={{ padding: 5 }}>
-                    <img width="200px" src={ific} alt="" />
+                <Carousel.Item>
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={ific} alt="" />
                 </Carousel.Item >
-                <Carousel.Item sx={{ padding: 5 }}>
-                    <img width="200px" src={akash} alt="" />
+                <Carousel.Item>
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={akash} alt="" />
                 </Carousel.Item >
-                <Carousel.Item sx={{ padding: 5 }}>
-                    <img width="200px" src={desco} alt="" />
+                <Carousel.Item>
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={desco} alt="" />
                 </Carousel.Item >
-
+                <Carousel.Item>
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={eximbank} alt="" />
+                </Carousel.Item >
+                <Carousel.Item>
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={regent} alt="" />
+                </Carousel.Item >
+                <Carousel.Item>
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={minister} alt="" />
+                </Carousel.Item >
+                <Carousel.Item>
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={symphony} alt="" />
+                </Carousel.Item >
             </Carousel>
 
-        </div>
+        </div >
     );
 };
 

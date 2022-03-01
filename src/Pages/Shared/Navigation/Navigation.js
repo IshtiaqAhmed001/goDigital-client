@@ -31,8 +31,6 @@ export default function ButtonAppBar() {
 
                     <NavLink style={{ textDecoration: 'none', color: 'white' }} to='/about'><Button color="inherit">About</Button></NavLink>
 
-                    <NavLink style={{ textDecoration: 'none', color: 'white' }} to='/services'><Button color="inherit">Services</Button></NavLink>
-
                     <NavLink style={{ textDecoration: 'none', color: 'white' }} to='/packages'><Button color="inherit">Packages</Button></NavLink>
 
                     {
