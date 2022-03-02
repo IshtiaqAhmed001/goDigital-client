@@ -12,7 +12,7 @@ const SingleService = ({ service }) => {
         <Grid sx={{ display: 'flex', justifyContent: 'center' }} item xs={12} sm={6} md={4}>
             <Card className='card-item' sx={{ padding: 2, maxWidth: 345, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <CardMedia
-                    sx={{ width: '50%' }}
+                    sx={{ width: '40%' }}
                     component="img"
                     image={service.img}
                     alt="green iguana"
@@ -21,7 +21,7 @@ const SingleService = ({ service }) => {
                     <Typography gutterBottom variant="h5" component="div">
                         {service.name}
                     </Typography>
-                    <Typography className='card-description' sx={{ textAlign: 'center' }} variant="body2" color="text.secondary">
+                    <Typography className='card-description' sx={{ textAlign: 'center', width: '90%', mx: 'auto' }} variant="body2" color="text.secondary">
                         {service.description}
                     </Typography>
                 </CardContent>
