@@ -7,7 +7,7 @@ import SingleService from '../SingleService/SingleService';
 const FeaturedServices = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
-        fetch('./fakeData.json')
+        fetch('http://localhost:5000/services')
             .then(res => res.json())
             .then(data => setServices(data));
     }, [])
