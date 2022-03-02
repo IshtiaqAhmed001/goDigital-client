@@ -23,7 +23,7 @@ const OurClients = () => {
     return (
         <div >
             <Typography sx={{ my: 5, letterSpacing: 6, color: '#232323' }} variant="h2">
-                Our Valuable Clients
+                Our Clients
             </Typography>
             <Typography sx={{ mb: 5, fontSize: '1.2rem' }} variant='subtitle' color='text.secondary'>
                 In the last few years We have provided Web desigining, TVC, OVC, SEO, and Promotional Content Desigining  Services to 150+ Clients.
