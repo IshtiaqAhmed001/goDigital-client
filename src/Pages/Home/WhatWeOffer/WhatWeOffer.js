@@ -9,7 +9,7 @@ import './WhatWeOffer.css';
 const WhatWeOffer = () => {
     return (
         <div className='weOffer-page'>
-            <Typography sx={{ paddingY: 4, color: '#FEFEFE', letterSpacing: 6 }} variant="h2" >
+            <Typography sx={{ paddingY: 4, color: '#FEFEFE', letterSpacing: 6, fontSize: { xs: '2em', sm: '3.5em' } }}  >
                 What We Offer
             </Typography>
 

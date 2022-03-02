@@ -7,7 +7,7 @@ import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 const OurActivities = () => {
     return (
         <div>
-            <Typography variant='h4' sx={{ width: '50%', mx: 'auto', mt: 10, mb: 2 }}>
+            <Typography sx={{ width: '50%', mx: 'auto', mt: 10, mb: 2, fontSize: { xs: '1.2em', sm: '2em' } }}>
                 "We love what we do and we love helping others succeed at what they love to do."
             </Typography>
             <Typography variant='body1' sx={{ width: '50%', mx: 'auto', mb: 4 }}>

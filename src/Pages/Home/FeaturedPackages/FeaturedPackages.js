@@ -14,7 +14,7 @@ const FeaturedPackages = () => {
 
     return (
         <Box sx={{ paddingY: 5, backgroundColor: '#EFF4F5' }}>
-            <Typography sx={{ marginBottom: 5, color: '#4CC2C0' }} variant="h2" component="div" gutterBottom>
+            <Typography sx={{ marginBottom: 5, color: '#4CC2C0', fontSize: { xs: '2em', sm: '3.5em' } }} >
                 Our Pricing and Packages
             </Typography>
             <Typography sx={{ color: 'text.secondary', width: '70%', mx: 'auto', mb: 4 }} variant="body1" >
