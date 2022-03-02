@@ -10,12 +10,12 @@ This website has 10 pages.Some pages are public and some are protected,which mea
 
 Pages               | Details
 -------------       | -------------
-Home                | main landing page includes featured cars,reviews etc..
-About US            | shows the available Cars for sale
+Home                | main landing page includes featured ,reviews etc..
+About US            | shows the available  
 Add a Review        | let's us
 My Orders           | let's user c
 Make Payment        | let's user complete
-Add a New Car       | let's user to add new car/item t
+Add a New Car       | let's user to add new /item t
 Manage All Orders   | let's user to update/delete orders
 Manage All Product  | let's user to delete an
 Make Admin          | let's Admin to del
