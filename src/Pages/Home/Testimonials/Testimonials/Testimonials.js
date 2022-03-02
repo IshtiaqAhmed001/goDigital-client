@@ -8,7 +8,7 @@ const Testimonials = () => {
 
     const [reviews, setReviews] = useState([]);
     useEffect(() => {
-        fetch('./reviewData.json')
+        fetch('https://floating-lowlands-12971.herokuapp.com/reviews')
             .then(res => res.json())
             .then(data => setReviews(data))
     }, []);
