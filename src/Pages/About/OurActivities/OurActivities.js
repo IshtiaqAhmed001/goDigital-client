@@ -10,7 +10,7 @@ const OurActivities = () => {
             <Typography sx={{ width: '50%', mx: 'auto', mt: 10, mb: 2, fontSize: { xs: '1.2em', sm: '2em' } }}>
                 "We love what we do and we love helping others succeed at what they love to do."
             </Typography>
-            <Typography variant='body1' sx={{ width: '50%', mx: 'auto', mb: 4 }}>
+            <Typography variant='body1' sx={{ width: '50%', mx: 'auto', mb: 3 }}>
                 Isthiaq Ahmed Chowdhury, <span style={{ color: '#00BEA3' }}>CEO</span>
             </Typography>
             <Grid container spacing={2} sx={{ width: '90%', mx: 'auto', py: 10 }}>

@@ -1,73 +1,35 @@
-# Getting Started with Create React App
+# Go Digital - A digital Agency providing 360° solutions
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A digital agency a business that provides web desigining, online marketing sevices , business consultancy and other online promotional services to small and large scale companies.
 
-## Available Scripts
+Go Digital is a digital agency providing a wide range of affordable packages for everyone. We have worked with more than 150+ companies till now. We offer pixel perfect designs, strategies and consultancy with results!
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Pages/Features
+This website has 10 pages.Some pages are public and some are protected,which means user needs to be logged in to access those pages/features and among those pages some pages are accessible only when the logged in user is an Admin.
 
 
-link: https://go-digital-agency.web.app
+Pages               | Details
+-------------       | -------------
+Home                | main landing page includes featured cars,reviews etc..
+About US            | shows the available Cars for sale
+Add a Review        | let's us
+My Orders           | let's user c
+Make Payment        | let's user complete
+Add a New Car       | let's user to add new car/item t
+Manage All Orders   | let's user to update/delete orders
+Manage All Product  | let's user to delete an
+Make Admin          | let's Admin to del
+Login/Register      | Login and Registration p
+
+### Project Details
+
+To make the frontend(client side) we used React,which is a JavaScript Library. We also implemented react router here so the pages of the site loads faster than the regular websites.We used firebase authentication system and private route too.For styling we used a combination of vanilla css and bootstrap.
+
+For backend (server side) used node and express as a framework.
+And lastly for storing data we used mongodb which is a nosql database.
+
+
+### Live client site link:
+https://go-digital-agency.web.app
+
+### Live server site link:
