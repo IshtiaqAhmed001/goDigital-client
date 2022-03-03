@@ -1,6 +1,7 @@
 import { Button, Grid, TextField, Typography } from '@mui/material';
 import React from 'react';
-import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined'; import GoogleIcon from '@mui/icons-material/Google';
+import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
+import GoogleIcon from '@mui/icons-material/Google';
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Box } from '@mui/system';
