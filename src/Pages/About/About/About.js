@@ -3,7 +3,7 @@ import Footer from '../../Shared/Footer/Footer';
 import Navigation from '../../Shared/Navigation/Navigation';
 import IntroSection from '../IntroSection/IntroSection';
 import OurActivities from '../OurActivities/OurActivities';
-import TheTeam from '../TheTeam/TheTeam';
+import OurProjects from '../OurProjects/OurProjects'
 
 const About = () => {
     return (
@@ -11,7 +11,7 @@ const About = () => {
             <Navigation></Navigation>
             <IntroSection></IntroSection>
             <OurActivities></OurActivities>
-            <TheTeam></TheTeam>
+            <OurProjects></OurProjects>
             <Footer></Footer>
         </div>
     );
