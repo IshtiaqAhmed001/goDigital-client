@@ -11,7 +11,6 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import useAuth from '../../../hooks/useAuth';
 import { NavLink } from 'react-router-dom';
-
 const Navigation = () => {
     const { user, logOut } = useAuth();
     const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -35,7 +34,7 @@ const Navigation = () => {
                         component="div"
                         sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
                     >
-                        GoDigital
+                        <img style={{ width: '60px' }} src="https://i.ibb.co/QXPq7gS/go-Digital-Small.png" alt="" />
                     </Typography>
 
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -108,7 +107,7 @@ const Navigation = () => {
                         component="div"
                         sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
                     >
-                        GoDigital
+                        <img style={{ width: '50px' }} src="https://i.ibb.co/QXPq7gS/go-Digital-Small.png" alt="" />
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', justifyContent: 'flex-end' } }}>
 

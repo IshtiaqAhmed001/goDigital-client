@@ -10,7 +10,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div className='footer-container'>
-            <Grid container spacing={2} sx={{ py: 5 }}>
+            <Grid container spacing={2} sx={{ py: 2 }}>
                 <Grid item xs={12} sm={12} md={12} lg={4}>
                     <FacebookOutlinedIcon sx={{ color: '#4267B2', backgroundColor: 'white', padding: 0.5, fontSize: '2rem', borderRadius: '50%' }}></FacebookOutlinedIcon>
 
@@ -20,7 +20,9 @@ const Footer = () => {
 
                 </Grid>
                 <Grid item xs={12} sm={12} md={12} lg={4}>
-                    <Typography variant='h3' sx={{ fontWeight: 'bold', color: 'white' }}>GoDigital</Typography>
+                    <Typography variant='h3' sx={{ fontWeight: 'bold', color: 'white' }}>
+                        <img style={{ width: '110px', height: '90px' }} src="https://i.ibb.co/QXPq7gS/go-Digital-Small.png" alt="" />
+                    </Typography>
                 </Grid>
                 <Grid item xs={12} sm={12} md={12} lg={4}>
                     <Box sx={{ display: 'flex', alignItems: 'flex-end', backgroundColor: 'white', p: 0.5, width: '70%', mx: 'auto' }}>
