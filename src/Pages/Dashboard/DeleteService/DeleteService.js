@@ -6,11 +6,11 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
-import { Button, Grid } from '@mui/material';
+import { Alert, Button, Grid } from '@mui/material';
 
 const DeleteService = () => {
-
     const [services, setServices] = useState([]);
+    const [success, setSuccess] = useState(false);
     useEffect(() => {
         fetch('https://floating-lowlands-12971.herokuapp.com/services')
             .then(res => res.json())
@@ -24,7 +24,9 @@ const DeleteService = () => {
         })
             .then(res => res.json())
             .then(data => {
-                console.log(data)
+                if (data.deletedCount > 0) {
+                    setSuccess(true);
+                }
             })
     }
 
@@ -71,7 +73,8 @@ const DeleteService = () => {
                             </TableBody>
                         </Table>
                     </TableContainer>
-
+                    {success && <Alert severity="success">Service deleted successfully. Check homepage!</Alert>
+                    }
                 </Grid>
             </Grid>
 
