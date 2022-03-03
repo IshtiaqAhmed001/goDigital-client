@@ -69,23 +69,23 @@ const Navigation = () => {
                         >
                             <MenuItem key="Home" onClick={handleCloseNavMenu}>
                                 <Typography textAlign="center">
-                                    <NavLink style={{ textDecoration: 'none', color: 'blue' }} to='/home'>Home</NavLink>
+                                    <NavLink style={{ textDecoration: 'none', color: 'black' }} to='/home'>Home</NavLink>
                                 </Typography>
                             </MenuItem>
                             <MenuItem key="About" onClick={handleCloseNavMenu}>
                                 <Typography textAlign="center">
-                                    <NavLink style={{ textDecoration: 'none', color: 'blue' }} to='/about'>About</NavLink>
+                                    <NavLink style={{ textDecoration: 'none', color: 'black' }} to='/about'>About</NavLink>
                                 </Typography>
                             </MenuItem>
                             <MenuItem key="Packages" onClick={handleCloseNavMenu}>
                                 <Typography textAlign="center">
-                                    <NavLink style={{ textDecoration: 'none', color: 'blue' }} to='/packages'>Packages</NavLink>
+                                    <NavLink style={{ textDecoration: 'none', color: 'black' }} to='/packages'>Packages</NavLink>
                                 </Typography>
                             </MenuItem>
                             {user?.email ? <Box>
                                 <MenuItem key="Dashboard" onClick={handleCloseNavMenu}>
                                     <Typography textAlign="center">
-                                        <NavLink style={{ textDecoration: 'none', color: 'blue' }} to='/dashboard'>Dashboard</NavLink>
+                                        <NavLink style={{ textDecoration: 'none', color: 'black' }} to='/dashboard'>Dashboard</NavLink>
                                     </Typography>
                                 </MenuItem>
 
@@ -96,7 +96,7 @@ const Navigation = () => {
                                 </MenuItem>
                             </Box> : <MenuItem key="Login" onClick={handleCloseNavMenu}>
                                 <Typography textAlign="center">
-                                    <NavLink style={{ textDecoration: 'none', color: 'blue' }} to='/login'>Login</NavLink>
+                                    <NavLink style={{ textDecoration: 'none', color: 'black' }} to='/login'>Login</NavLink>
                                 </Typography>
                             </MenuItem>
                             }
@@ -110,7 +110,7 @@ const Navigation = () => {
                     >
                         GoDigital
                     </Typography>
-                    <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+                    <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', justifyContent: 'flex-end' } }}>
 
                         <Button
                             key="Home"
