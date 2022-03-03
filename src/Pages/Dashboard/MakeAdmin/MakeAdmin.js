@@ -41,7 +41,7 @@ const MakeAdmin = () => {
                     type="email"
                     onBlur={handleOnBlur}
                     variant="standard" />
-                <Button size='large' type="submit" variant="contained">Make Admin</Button>
+                <Button sx={{ backgroundColor: 'black' }} size='large' type="submit" variant="contained">Make Admin</Button>
             </form>
             {successMsg && <Alert severity="success">Made Admin Successfully!</Alert>}
         </div>

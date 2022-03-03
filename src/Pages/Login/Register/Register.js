@@ -39,7 +39,6 @@ const Register = () => {
     return (
         <ThemeProvider theme={theme}>
             <div className='login-page'>
-                {/* className='login-page' */}
                 <Grid container>
                     <Grid item xs={12} sm={6} md={6} lg={6} sx={{ my: 10, paddingY: 10, mx: 'auto', backgroundColor: 'white', borderRadius: '5%' }}>
                         <Box sx={{ paddingX: 5 }}>

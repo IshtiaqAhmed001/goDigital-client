@@ -5,6 +5,9 @@ import SinglePackage from '../SinglePackage/SinglePackage';
 
 
 const AvailablePackages = () => {
+    // scroll to the top once renderred
+    window.scrollTo(0, 0);
+
     const [orderSuccess, setOrderSuccess] = useState(false);
 
     const [packages, setPackages] = useState([]);

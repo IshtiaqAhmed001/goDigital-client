@@ -1,22 +1,5 @@
 import React from 'react';
 import Carousel from 'react-grid-carousel'
-
-import bkash from '../../../Media/brands-logo/bkash.png';
-import nagad from '../../../Media/brands-logo/nagad.png';
-import banglalink from '../../../Media/brands-logo/banglalink.png';
-import robi from '../../../Media/brands-logo/robi.png';
-import citybank from '../../../Media/brands-logo/citybank.png';
-import usbangla from '../../../Media/brands-logo/usbangla.png';
-import abbank from '../../../Media/brands-logo/abbank.png';
-import beximco from '../../../Media/brands-logo/beximco.png';
-import gp from '../../../Media/brands-logo/grameenphone.png';
-import ific from '../../../Media/brands-logo/ific.png';
-import akash from '../../../Media/brands-logo/akash.png';
-import desco from '../../../Media/brands-logo/desco.png';
-import regent from '../../../Media/brands-logo/regent.png';
-import eximbank from '../../../Media/brands-logo/eximbank.png';
-import minister from '../../../Media/brands-logo/ministertv.png';
-import symphony from '../../../Media/brands-logo/symphony.png';
 import { Typography } from '@mui/material';
 
 const OurClients = () => {
@@ -31,52 +14,52 @@ const OurClients = () => {
             <br />
             <Carousel cols={4} rows={2} gap={3} autoplay={1500} loop={true} >
                 <Carousel.Item>
-                    <img style={{ width: "300px", height: "150px", padding: '30px' }} src={bkash} alt="" />
+                    <img style={{ width: "300px", height: "150px", padding: '30px' }} src="https://i.ibb.co/tBrs7yk/bkash.png" alt="" />
                 </Carousel.Item >
                 <Carousel.Item>
-                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={banglalink} alt="" />
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src="https://i.ibb.co/tHvQ5rX/banglalink.png" alt="" />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={nagad} alt="" />
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src="https://i.ibb.co/ftB2C5K/nagad.png" alt="" />
                 </Carousel.Item >
                 <Carousel.Item>
-                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={robi} alt="" />
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src="https://i.ibb.co/FY7fRXb/robi.png" alt="" />
                 </Carousel.Item >
                 <Carousel.Item>
-                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={citybank} alt="" />
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src="https://i.ibb.co/N2t3d2c/citybank.png" alt="" />
                 </Carousel.Item >
                 <Carousel.Item>
-                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={usbangla} alt="" />
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src="https://i.ibb.co/TqkH4LQ/usbangla.png" alt="" />
                 </Carousel.Item >
                 <Carousel.Item>
-                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={abbank} alt="" />
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src="https://i.ibb.co/JdwPdf7/abbank.png" alt="" />
                 </Carousel.Item >
                 <Carousel.Item>
-                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={beximco} alt="" />
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src="https://i.ibb.co/7vdJb6P/beximco.png" alt="" />
                 </Carousel.Item >
                 <Carousel.Item>
-                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={gp} alt="" />
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src="https://i.ibb.co/YX1NpNJ/grameenphone.png" alt="" />
                 </Carousel.Item >
                 <Carousel.Item>
-                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={ific} alt="" />
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src="https://i.ibb.co/VHKnR0g/ific.png" alt="" />
                 </Carousel.Item >
                 <Carousel.Item>
-                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={akash} alt="" />
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src="https://i.ibb.co/yk8hK6D/akash.png" alt="" />
                 </Carousel.Item >
                 <Carousel.Item>
-                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={desco} alt="" />
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src="https://i.ibb.co/BKqbSBm/desco.png" alt="" />
                 </Carousel.Item >
                 <Carousel.Item>
-                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={eximbank} alt="" />
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src="https://i.ibb.co/Q97mnpr/eximbank.png" alt="" />
                 </Carousel.Item >
                 <Carousel.Item>
-                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={regent} alt="" />
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src="https://i.ibb.co/FsJw5pz/regent.png" alt="" />
                 </Carousel.Item >
                 <Carousel.Item>
-                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={minister} alt="" />
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src="https://i.ibb.co/QkRxLnq/ministertv.png" alt="" />
                 </Carousel.Item >
                 <Carousel.Item>
-                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src={symphony} alt="" />
+                    <img style={{ width: "300px", height: "150px", padding: '10px 0' }} src="https://i.ibb.co/m8MtfmH/symphony.png" alt="" />
                 </Carousel.Item >
             </Carousel>
             <br />

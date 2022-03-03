@@ -4,6 +4,9 @@ import React from 'react';
 import './IntroSection.css';
 
 const IntroSection = () => {
+    // scroll to the top once renderred
+    window.scrollTo(0, 0);
+
     return (
         <div className='intro-section' style={{ padding: '40px 0' }}>
             <Box sx={{ py: 10 }}>
