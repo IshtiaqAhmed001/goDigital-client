@@ -83,6 +83,14 @@ function Dashboard(props) {
                                 <ListItemText primary={'Add New Service'} />
                             </ListItem>
                         </NavLink>
+                        <NavLink style={{ textDecoration: 'none', color: 'black' }} to='/dashboard/deleteService'>
+                            <ListItem button>
+                                <ListItemIcon>
+                                    <AdminPanelSettingsIcon />
+                                </ListItemIcon>
+                                <ListItemText primary={'Delete a Service'} />
+                            </ListItem>
+                        </NavLink>
                     </Box>
                 }
                 <NavLink style={{ textDecoration: 'none', color: 'black' }} to='/dashboard/addReview'>

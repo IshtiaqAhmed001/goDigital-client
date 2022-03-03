@@ -14,6 +14,7 @@ import MakeAdmin from './Pages/Dashboard/MakeAdmin/MakeAdmin';
 import AddReview from './Pages/Dashboard/AddReview/AddReview';
 import AddService from './Pages/Dashboard/AddService/AddService';
 import AdminRoute from './Pages/Login/AdminRoute/AdminRoute';
+import DeleteService from './Pages/Dashboard/DeleteService/DeleteService';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
               <Route path="/dashboard" element={<DashboardHome />} />
               <Route path="/dashboard/makeAdmin" element={<AdminRoute><MakeAdmin /></AdminRoute>} />
               <Route path="/dashboard/addService" element={<AdminRoute><AddService /></AdminRoute>} />
+              <Route path="/dashboard/deleteService" element={<AdminRoute><DeleteService /></AdminRoute>} />
               <Route path="/dashboard/addReview" element={<AddReview />} />
             </Route>
 

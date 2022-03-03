@@ -11,7 +11,8 @@ const AddService = () => {
     const [success, setSuccess] = useState(false);
 
     const onSubmit = data => {
-        fetch('http://localhost:5000/services', {
+        data.canDelete = 'yes';
+        fetch('https://floating-lowlands-12971.herokuapp.com/services', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
