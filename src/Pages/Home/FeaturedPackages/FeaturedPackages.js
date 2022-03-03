@@ -7,7 +7,7 @@ const FeaturedPackages = () => {
 
     const [packages, setPackages] = useState([]);
     useEffect(() => {
-        fetch('./availablePackagesData.json')
+        fetch('https://floating-lowlands-12971.herokuapp.com/availablePackages')
             .then(res => res.json())
             .then(data => setPackages(data));
     }, [])
