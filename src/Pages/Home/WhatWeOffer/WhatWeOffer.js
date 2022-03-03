@@ -10,7 +10,7 @@ const WhatWeOffer = () => {
             </Typography>
 
 
-            <Grid container spacing={4} sx={{ width: '90%', mx: 'auto', my: 2, padding: 3 }}>
+            <Grid container spacing={4} sx={{ width: '90%', mx: 'auto', padding: 3 }}>
                 <Grid item lg={12} md={12} sm={12} xs={12}>
                     <Grid container spacing={1}>
                         <Grid item xs={12} sm={12} md={4} lg={4} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>

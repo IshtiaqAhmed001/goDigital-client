@@ -4,35 +4,51 @@ import './TopBanner.css';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { blueGrey } from '@mui/material/colors';
-
-
+import { useNavigate } from 'react-router-dom';
 const TopBanner = () => {
-
+    const myRef = React.useRef(null)
+    const navigate = useNavigate();
     const theme = createTheme({
         palette: {
             primary: {
-                main: blueGrey[900],
+                main: "#FFFFFF"
             }
         }
     });
 
+    const handleMoreAboutBtn = () => {
+        navigate('/about')
+    }
+
+    const handleGetStarted = () => {
+        myRef.current.scrollIntoView()
+    }
+
     return (
         <ThemeProvider theme={theme}>
-            <Box className='top-banner-heading' sx={{ flexGrow: 1 }}>
-                <Typography sx={{ fontSize: { sm: '6rem', xs: '3rem' }, textAlign: 'left', lineHeight: 1.2, ml: 2, color: '#232323', paddingTop: 10, display: 'flex', alignItems: 'center' }}>
-                    Make Your Vision
-                    <br />
-                    A Reality
-                    <br />
-                    With Go-Digital
+            <Box className='top-banner-heading' sx={{ textAlign: 'start', flexGrow: 1, p: 10 }}>
+                <Typography color="#727578" sx={{ fontSize: { xs: '0.6rem', sm: '1.2rem', md: '1.5rem' }, fontWeight: 'bold', letterSpacing: 2 }}>
+                    WELCOME TO GO-DIGITAL
                 </Typography>
-                <Typography sx={{ textAlign: 'left', ml: 2 }}>
-                    <Button sx={{ marginLeft: 'auto', marginBottom: 10, fontSize: '1.2rem', backgroundColor: "#232323", paddingX: 4, borderColor: '#232323' }} size="large" variant="contained">Learn More</Button>
+                <Typography color="#e0dbdb" sx={{ fontSize: { xs: '1.3rem', sm: '2.5rem', md: '3.5rem' }, fontWeight: 'bold', lineHeight: 1.5, letterSpacing: 1.5 }}>
+                    We are a creative group
+                    <br />
+                    of people who design
+                    <br />
+                    influential brands and
+                    <br />
+                    digital experiences.
                 </Typography>
+
+                <Button onClick={handleGetStarted} size='large' sx={{ borderRadius: 0, my: 4, mr: 4 }} variant="outlined" color="primary">
+                    <a href="#featuredPackages" style={{ textDecoration: 'none', color: 'white' }}>Get Started</a>
+                </Button>
+                <Button onClick={handleMoreAboutBtn} size='large' sx={{ borderRadius: 0 }} variant="outlined">More About Us</Button>
+
             </Box>
         </ThemeProvider>
     );
 };
 
 export default TopBanner;
+

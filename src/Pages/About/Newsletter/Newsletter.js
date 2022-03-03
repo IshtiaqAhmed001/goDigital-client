@@ -14,9 +14,9 @@ const OurProjects = () => {
                 <TextField
                     type="email"
                     placeholder="Email"
-                    sx={{ backgroundColor: 'gray', width: '80%' }}
+                    sx={{ backgroundColor: 'gray', width: '80%', my: 2, mr: 2 }}
                     variant="outlined" />
-                <Button variant='text' sx={{ backgroundColor: 'gray', fontSize: '1.3rem', color: 'white', mx: 2, padding: '10px 20px' }}>SUBSCRIBE</Button>
+                <Button variant='text' sx={{ borderRadius: 0, backgroundColor: 'gray', fontSize: '1.3rem', color: 'white', my: 2, padding: '10px 20px' }}>SUBSCRIBE</Button>
 
                 <Box sx={{ my: 3 }}>
                     <FacebookOutlinedIcon sx={{ color: 'white', padding: 0.5, fontSize: '2rem', borderRadius: '50%' }}></FacebookOutlinedIcon>

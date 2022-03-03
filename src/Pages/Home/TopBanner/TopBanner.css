@@ -1,6 +1,9 @@
 .top-banner-heading{
-    background: url('https://i.ibb.co/BLYyJKv/05.jpg');
+    background: url('https://i.ibb.co/hsBqNv3/top-Banner-bg.png');
     background-repeat:no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+html {
+    scroll-behavior: smooth;
 }
