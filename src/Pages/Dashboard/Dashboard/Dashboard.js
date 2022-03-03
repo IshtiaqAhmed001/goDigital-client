@@ -19,7 +19,9 @@ import HomeIcon from '@mui/icons-material/Home';
 import AdminPanelSettingsIcon from '@mui/icons-material/AdminPanelSettings';
 import ReviewsIcon from '@mui/icons-material/Reviews';
 import useAuth from '../../../hooks/useAuth';
-
+import DashboardIcon from '@mui/icons-material/Dashboard';
+import AddCircleIcon from '@mui/icons-material/AddCircle';
+import RemoveCircleIcon from '@mui/icons-material/RemoveCircle';
 
 const drawerWidth = 200;
 
@@ -49,7 +51,7 @@ function Dashboard(props) {
                 <NavLink style={{ textDecoration: 'none', color: 'black' }} to='/packages'>
                     <ListItem button>
                         <ListItemIcon>
-                            <HomeIcon />
+                            <ShoppingBagIcon />
                         </ListItemIcon>
                         <ListItemText primary={'Order Package'} />
                     </ListItem>
@@ -60,7 +62,7 @@ function Dashboard(props) {
                 <NavLink style={{ textDecoration: 'none', color: 'black' }} to='/dashboard'>
                     <ListItem button>
                         <ListItemIcon>
-                            <ShoppingBagIcon />
+                            <DashboardIcon />
                         </ListItemIcon>
                         <ListItemText primary={'Dashboard'} />
                     </ListItem>
@@ -78,7 +80,7 @@ function Dashboard(props) {
                         <NavLink style={{ textDecoration: 'none', color: 'black' }} to='/dashboard/addService'>
                             <ListItem button>
                                 <ListItemIcon>
-                                    <AdminPanelSettingsIcon />
+                                    <AddCircleIcon />
                                 </ListItemIcon>
                                 <ListItemText primary={'Add New Service'} />
                             </ListItem>
@@ -86,7 +88,7 @@ function Dashboard(props) {
                         <NavLink style={{ textDecoration: 'none', color: 'black' }} to='/dashboard/deleteService'>
                             <ListItem button>
                                 <ListItemIcon>
-                                    <AdminPanelSettingsIcon />
+                                    <RemoveCircleIcon />
                                 </ListItemIcon>
                                 <ListItemText primary={'Delete a Service'} />
                             </ListItem>
