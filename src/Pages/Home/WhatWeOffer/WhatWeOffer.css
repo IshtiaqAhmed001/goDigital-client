@@ -3,6 +3,11 @@
     background: url('https://i.ibb.co/St9VCTV/we-Offer-bg.jpg');
     background-size: cover;
     color:#e0e0de;
-    background-attachment: fixed;
-    /* background-color: #1F2732; */
+    /* background-attachment: fixed; */
+}
+
+@media only screen and (min-width: 769px) {
+    .weOffer-page{
+      background-attachment: fixed;
+    }
 }

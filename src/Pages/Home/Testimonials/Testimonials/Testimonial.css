@@ -2,7 +2,7 @@
         background: url('https://i.ibb.co/St9VCTV/we-Offer-bg.jpg');
         background-repeat:no-repeat;
         background-size: cover;
-        background-attachment: fixed;
+        /* background-attachment: fixed; */
         padding: 10px 0;
 }
 .carousel-container{
@@ -10,6 +10,10 @@
     margin:auto;
     border-radius: 5%;
     padding: 20px;
-    /* background-color: #211d1cb1; */
-    /* background-color: #060a0cd2; */
+}
+
+@media only screen and (min-width: 769px) {
+    .testimonial-page{
+      background-attachment: fixed;
+    }
 }
