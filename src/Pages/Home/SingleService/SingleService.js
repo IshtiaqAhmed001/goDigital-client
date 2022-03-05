@@ -12,7 +12,7 @@ const SingleService = ({ service }) => {
         <Grid sx={{ display: 'flex', justifyContent: 'center' }} item xs={12} sm={6} md={4}>
             <Card className='card-item' sx={{ padding: 2, maxWidth: 345, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <CardMedia
-                    sx={{ width: '30%' }}
+                    sx={{ width: '100px' }}
                     component="img"
                     image={service.img}
                     alt="green iguana"

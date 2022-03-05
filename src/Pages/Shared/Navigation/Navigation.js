@@ -34,7 +34,7 @@ const Navigation = () => {
                         component="div"
                         sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
                     >
-                        <img style={{ width: '60px' }} src="https://i.ibb.co/QXPq7gS/go-Digital-Small.png" alt="" />
+                        <img style={{ width: '30px' }} src="https://i.ibb.co/QXPq7gS/go-Digital-Small.png" alt="" />
                     </Typography>
 
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -107,7 +107,7 @@ const Navigation = () => {
                         component="div"
                         sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
                     >
-                        <img style={{ width: '50px' }} src="https://i.ibb.co/QXPq7gS/go-Digital-Small.png" alt="" />
+                        <img style={{ width: '30px', height: '30px' }} src="https://i.ibb.co/QXPq7gS/go-Digital-Small.png" alt="" />
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', justifyContent: 'flex-end' } }}>
 
