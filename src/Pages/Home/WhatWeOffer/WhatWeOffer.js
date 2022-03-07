@@ -45,7 +45,7 @@ const WhatWeOffer = () => {
                             <img style={{ width: '280px', height: '280px', borderRadius: '50%', border: '8px solid #000108', padding: '5px' }} src="https://i.ibb.co/dtzgn9M/design.jpg" alt="" />
                         </Grid>
                         <Grid
-                            data-aos="fade-right"
+                            data-aos="fade-left"
                             data-aos-duration="3000"
                             item xs={12} sm={12} md={4} lg={4} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                             <Typography variant='body1'>Color scheme, layout, sitemap, and style. We will bring your brand to life with a one of a kind masterpiece, built just for you.</Typography>

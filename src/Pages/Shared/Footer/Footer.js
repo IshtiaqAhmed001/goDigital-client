@@ -19,7 +19,12 @@ const Footer = () => {
                     <LinkedInIcon sx={{ color: '#0e76a8', backgroundColor: 'white', padding: 0.5, fontSize: '2rem', borderRadius: '50%' }}></LinkedInIcon>
 
                 </Grid>
-                <Grid item xs={12} sm={12} md={12} lg={4}>
+                <Grid
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="300"
+                    data-aos-offset="0"
+                    item xs={12} sm={12} md={12} lg={4}>
                     <Typography variant='h3' sx={{ fontWeight: 'bold', color: 'white' }}>
                         <img style={{ width: '110px', height: '90px' }} src="https://i.ibb.co/QXPq7gS/go-Digital-Small.png" alt="" />
                     </Typography>
