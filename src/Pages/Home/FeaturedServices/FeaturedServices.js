@@ -19,7 +19,10 @@ const FeaturedServices = () => {
                     Our Services
                 </Typography>
 
-                <Grid container spacing={2}>
+                <Grid
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                    container spacing={2}>
                     {
                         services?.map(service => <SingleService
                             key={service.name}

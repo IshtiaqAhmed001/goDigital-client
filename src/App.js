@@ -15,8 +15,15 @@ import AddReview from './Pages/Dashboard/AddReview/AddReview';
 import AddService from './Pages/Dashboard/AddService/AddService';
 import AdminRoute from './Pages/Login/AdminRoute/AdminRoute';
 import DeleteService from './Pages/Dashboard/DeleteService/DeleteService';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
     <div className="App">
       <AuthProvider>

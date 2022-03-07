@@ -15,7 +15,8 @@ const Testimonials = () => {
 
     return (
         <div className='testimonial-page'>
-            <Typography sx={{ paddingY: 4, letterSpacing: 6, color: '#FEFEFE', fontSize: { xs: '2em', sm: '3.5em' } }} >
+            <Typography
+                sx={{ paddingY: 4, letterSpacing: 6, color: '#FEFEFE', fontSize: { xs: '2em', sm: '3.5em' } }} >
                 Testimonials
             </Typography>
             <Carousel className='carousel-container' >

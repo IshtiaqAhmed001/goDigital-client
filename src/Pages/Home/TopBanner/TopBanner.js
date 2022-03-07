@@ -30,7 +30,10 @@ const TopBanner = () => {
                 <Typography color="#727578" sx={{ fontSize: { xs: '0.6rem', sm: '1.2rem', md: '1.5rem' }, fontWeight: 'bold', letterSpacing: 2 }}>
                     WELCOME TO GO-DIGITAL
                 </Typography>
-                <Typography color="#e0dbdb" sx={{ fontSize: { xs: '1.3rem', sm: '2.5rem', md: '3.5rem' }, fontWeight: 'bold', lineHeight: 1.5, letterSpacing: 1.5 }}>
+
+                <Typography
+                    color="#e0dbdb"
+                    sx={{ fontSize: { xs: '1.3rem', sm: '2.5rem', md: '3.5rem' }, fontWeight: 'bold', lineHeight: 1.5, letterSpacing: 1.5 }}>
                     We are a creative group
                     <br />
                     of people who design
