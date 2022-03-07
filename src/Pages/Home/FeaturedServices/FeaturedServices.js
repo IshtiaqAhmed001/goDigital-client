@@ -22,7 +22,8 @@ const FeaturedServices = () => {
                 <Grid
                     data-aos="fade-up"
                     data-aos-duration="3000"
-                    container spacing={2}>
+                    spacing={2}
+                    container >
                     {
                         services?.map(service => <SingleService
                             key={service.name}

@@ -11,7 +11,8 @@ const Footer = () => {
     return (
         <div className='footer-container'>
             <Grid container spacing={2} sx={{ py: 2 }}>
-                <Grid item xs={12} sm={12} md={12} lg={4}>
+                <Grid data-aos="fade-right" data-aos-duration="3000"
+                    item xs={12} sm={12} md={12} lg={4}>
                     <FacebookOutlinedIcon sx={{ color: '#4267B2', backgroundColor: 'white', padding: 0.5, fontSize: '2rem', borderRadius: '50%' }}></FacebookOutlinedIcon>
 
                     <GoogleIcon sx={{ color: '#EA4335', backgroundColor: 'white', padding: 0.5, mx: 2, fontSize: '2rem', borderRadius: '50%' }}></GoogleIcon>
@@ -29,7 +30,8 @@ const Footer = () => {
                         <img style={{ width: '110px', height: '90px' }} src="https://i.ibb.co/QXPq7gS/go-Digital-Small.png" alt="" />
                     </Typography>
                 </Grid>
-                <Grid item xs={12} sm={12} md={12} lg={4}>
+                <Grid data-aos="fade-left" data-aos-duration="3000"
+                    item xs={12} sm={12} md={12} lg={4}>
                     <Box sx={{ display: 'flex', alignItems: 'flex-end', backgroundColor: 'white', p: 0.5, width: '70%', mx: 'auto' }}>
                         <TextField type='email' placeholder='Email Address' variant="standard" sx={{ width: '100%' }} />
                         <Button> <EmailIcon sx={{ color: '#3eb79f', fontSize: '2rem' }} /></Button>
@@ -41,7 +43,7 @@ const Footer = () => {
 
             <Grid container spacing={2} sx={{ py: 15 }}>
                 < Grid item xs={12} sm={12} md={12} lg={4}>
-                    <img src="https://i.ibb.co/5T33Jnt/location.png" alt="" />
+                    <img data-aos="flip-right" data-aos-duration="2000" src="https://i.ibb.co/5T33Jnt/location.png" alt="" />
                     <Typography sx={{ color: 'lightgray' }} variant='body2'>
                         Block C, Bashundhara R/A
                         <br />
@@ -49,13 +51,13 @@ const Footer = () => {
                     </Typography>
                 </Grid>
                 <Grid item xs={12} sm={12} md={12} lg={4}>
-                    <img src="https://i.ibb.co/F31RRXh/email.png" alt="" />
+                    <img data-aos="flip-right" data-aos-duration="2000" src="https://i.ibb.co/F31RRXh/email.png" alt="" />
                     <Typography sx={{ color: 'lightgray' }} variant='body2'>
                         ishtiaq.wasi@gmail.com
                     </Typography>
                 </Grid>
                 <Grid item xs={12} sm={12} md={12} lg={4}>
-                    <img src="https://i.ibb.co/XFvMH2q/phone.png" alt="" />
+                    <img data-aos="flip-right" data-aos-duration="2000" src="https://i.ibb.co/XFvMH2q/phone.png" alt="" />
                     <Typography sx={{ color: 'lightgray' }} variant='body2'>
                         +8801685490555
                     </Typography>

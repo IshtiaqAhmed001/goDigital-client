@@ -15,11 +15,14 @@ const Testimonials = () => {
 
     return (
         <div className='testimonial-page'>
-            <Typography
+            <Typography data-aos="zoom-in" data-aos-duration="1000"
                 sx={{ paddingY: 4, letterSpacing: 6, color: '#FEFEFE', fontSize: { xs: '2em', sm: '3.5em' } }} >
                 Testimonials
             </Typography>
-            <Carousel className='carousel-container' >
+            <Carousel data-aos="fade-left"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="500"
+                data-aos-duration="500" className='carousel-container' >
                 {
                     reviews?.map(review => <Testimonial
                         key={review.name}

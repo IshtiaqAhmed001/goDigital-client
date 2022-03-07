@@ -8,7 +8,8 @@ const OurProjects = () => {
     return (
         <Grid container spacing={2} sx={{ my: 10, padding: 5, backgroundColor: 'black', color: 'white', textAlign: 'start' }}>
             <Grid item xs={12} sm={12} md={12} lg={12} >
-                <Typography sx={{ fontSize: '2.5rem', my: 2 }}>
+                <Typography data-aos="fade-left" data-aos-duration="3000"
+                    sx={{ fontSize: '2.5rem', my: 2 }}>
                     NEWSLETTER
                 </Typography>
                 <TextField
@@ -18,7 +19,8 @@ const OurProjects = () => {
                     variant="outlined" />
                 <Button variant='text' sx={{ borderRadius: 0, backgroundColor: 'gray', fontSize: '1.3rem', color: 'white', my: 2, padding: '10px 20px' }}>SUBSCRIBE</Button>
 
-                <Box sx={{ my: 3 }}>
+                <Box data-aos="flip-up" data-aos-duration="3000"
+                    sx={{ my: 3 }}>
                     <FacebookOutlinedIcon sx={{ color: 'white', padding: 0.5, fontSize: '2rem', borderRadius: '50%' }}></FacebookOutlinedIcon>
 
                     <GoogleIcon sx={{ color: 'white', padding: 0.5, mx: 2, fontSize: '2rem', borderRadius: '50%' }}></GoogleIcon>

@@ -21,7 +21,8 @@ const AvailablePackages = () => {
     return (
         <div>
             <Box sx={{ paddingY: 8, backgroundColor: '#EFF4F5' }}>
-                <Typography sx={{ marginBottom: 10, fontWeight: 'bold', color: '#4CC2C0', fontSize: { xs: '2em', sm: '3.5em' } }} component="div" gutterBottom>
+                <Typography data-aos="zoom-in-up" data-aos-duration="3000"
+                    sx={{ marginBottom: 10, fontWeight: 'bold', color: '#4CC2C0', fontSize: { xs: '2em', sm: '3.5em' } }} component="div" gutterBottom>
                     Available Packages
                 </Typography>
                 <Typography sx={{ marginBottom: 2, width: '25%', mx: 'auto' }} variant="h6" component="div" gutterBottom>

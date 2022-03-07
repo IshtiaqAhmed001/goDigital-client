@@ -17,7 +17,8 @@ const FeaturedPackage = ({ singlePackage }) => {
 
     return (
         <>
-            <Grid sx={{ display: 'flex', justifyContent: 'center' }} item xs={12} sm={4} md={2}>
+            <Grid data-aos="flip-left"
+                sx={{ display: 'flex', justifyContent: 'center' }} item xs={12} sm={4} md={2}>
                 <Card className='single-card' sx={{ padding: 2, maxWidth: 345, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                     <CardMedia
                         sx={{ width: "50%" }}

@@ -5,7 +5,8 @@ import { Typography } from '@mui/material';
 const OurClients = () => {
     return (
         <div >
-            <Typography sx={{ my: 5, letterSpacing: 6, color: '#232323', fontSize: { xs: '2em', sm: '3.5em' } }} >
+            <Typography data-aos="fade-right" data-aos-duration="3000"
+                sx={{ my: 5, letterSpacing: 6, color: '#232323', fontSize: { xs: '2em', sm: '3.5em' } }} >
                 Our Clients
             </Typography>
             <Typography sx={{ mb: 5, fontSize: '1.2rem' }} variant='subtitle' color='text.secondary'>

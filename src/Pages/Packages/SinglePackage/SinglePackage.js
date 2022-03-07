@@ -16,7 +16,10 @@ const SinglePackage = ({ singlePackage, setOrderSuccess }) => {
     const handlePurchaseClose = () => setPurchaseOpen(false);
     return (
         <>
-            <Grid sx={{ display: 'flex', justifyContent: 'center' }} item xs={12} sm={6} md={4}>
+            <Grid data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                sx={{ display: 'flex', justifyContent: 'center' }} item xs={12} sm={6} md={4}>
                 <Card className='single-card' sx={{ padding: 2, maxWidth: 345, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                     <CardMedia
                         sx={{ width: "50%" }}
