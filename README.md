@@ -9,7 +9,7 @@ This website has 05 pages: Home, About, Packages, Dashboard and Login/Registrati
 Some pages are public and some are protected,which means user needs to be logged in to access those pages/features and among those pages some pages are accessible only when the logged in user is an Admin.
 
 
-Pages               | Details
+Feautes/Pages       | Details
 -------------       | -------------
 Home                | main landing page includes services,reviews etc..
 About               | Glipmse of the company 
